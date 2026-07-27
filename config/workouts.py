@@ -44,7 +44,14 @@ PUSH = Workout(
     exercises=[
         # El catalogo no tiene "chest press machine"; BENCH_PRESS/BENCH_PRESS
         # es el press de pecho generico y es lo que mas se le acerca.
-        Exercise("Press de pecho en maquina", "BENCH_PRESS", "BENCH_PRESS", 3, 12, 90),
+        Exercise(
+            "Press de pecho en maquina", 
+            "BENCH_PRESS", 
+            "BENCH_PRESS", 
+            3, 
+            12, 
+            90
+        ),
         Exercise(
             "Press de hombro con mancuernas",
             "SHOULDER_PRESS",
@@ -53,7 +60,14 @@ PUSH = Workout(
             12,
             90,
         ),
-        Exercise("Aperturas en cable cruzado", "FLYE", "CABLE_CROSSOVER", 3, 15, 60),
+        Exercise(
+            "Aperturas en cable cruzado", 
+            "FLYE", 
+            "CABLE_CROSSOVER", 
+            3, 
+            15, 
+            60
+        ),
         Exercise(
             "Elevaciones laterales con mancuernas",
             "LATERAL_RAISE",
